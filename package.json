@@ -1,0 +1,31 @@
+{
+  "name": "common-kit",
+  "version": "1.0.0",
+  "description": "JavaScript Kit: base64(支持中文)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.conf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMaize/common-kit.git"
+  },
+  "keywords": [
+    "kit",
+    "base64"
+  ],
+  "author": "TMaize",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TMaize/common-kit/issues"
+  },
+  "homepage": "https://github.com/TMaize/common-kit#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
