@@ -6,24 +6,25 @@ JavaScript 常用工具方法集合
 
 ## 安装
 
+浏览器
+
 [https://unpkg.com/browse/common-kit/dist/kit.min.js](https://unpkg.com/browse/common-kit/dist/kit.min.js)
 
 Nodejs
 
-```
+```sh
 npm i common-kit -S
+
+# import kit from 'common-kit/index'
+# import base64 from 'common-kit/lib/base64/index'
 ```
 
-```
-import kit from 'common-kit/index'
-import base64 from 'common-kit/lib/base64/index'
-```
-
-## base64
+## 方法
 
 支持中文，和后端结果一致
 
 ```js
 kit.base64.encode('你好 kit')
 kit.base64.decode('5L2g5aW9IGtpdA==')
+kit.md5.digist('你好 kit)
 ```
