@@ -26,5 +26,5 @@ npm i common-kit -S
 ```js
 kit.base64.encode('你好 kit')
 kit.base64.decode('5L2g5aW9IGtpdA==')
-kit.md5.digist('你好 kit)
+kit.md5.digist('你好 kit')
 ```
