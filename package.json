@@ -1,6 +1,6 @@
 {
   "name": "common-kit",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "JavaScript Common Kit",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,9 @@
   },
   "scripts": {
     "build": "webpack --config ./webpack.conf.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "p": "npm run i && npm run build && npm run test && npm --registry https://registry.npmjs.org publish --access public",
+    "i": "npm --registry https://registry.npmjs.org install"
   },
   "repository": {
     "type": "git",
@@ -25,8 +27,8 @@
   },
   "homepage": "https://github.com/TMaize/common-kit#readme",
   "devDependencies": {
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   },
   "files": [
     "dist",

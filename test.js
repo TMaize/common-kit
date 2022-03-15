@@ -12,7 +12,7 @@ function testBase64() {
 function testMD5() {
   let rawStr = '你好 kit'
   let digistStr = '80eaa06272dc0a8b27b2045bc5ef14ae'
-  assert(digistStr === kit.md5.digist(rawStr), 'md5.digist')
+  assert(digistStr === kit.md5.digest(rawStr), 'md5.digest')
 }
 
 testBase64()
